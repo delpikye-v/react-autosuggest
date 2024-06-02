@@ -1,0 +1,2 @@
+export declare function useEventListener(eventName: string, handler: (event: MediaQueryListEventMap | WindowEventMap | HTMLElementEventMap | SVGElementEventMap | DocumentEventMap) => any, element?: HTMLElement | typeof global.window): void;
+export declare const useOnClickOutside: (ref: React.RefObject<HTMLElement> | React.RefObject<HTMLElement>[], handler: (event?: MouseEvent | TouchEvent | FocusEvent) => any) => void;
